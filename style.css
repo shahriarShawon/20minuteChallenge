@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: black;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 600px;
+    text-transform: uppercase;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #fcd3b5;
+    padding: 25px;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    width: 20%;
+  }
+
+  .single_feature_image {
+      text-align: center;
+      margin-bottom: 25px;
+  }
+
+.content {
+    text-align: center;
+}  
+.text {
+    margin-top: 10px;
+}
